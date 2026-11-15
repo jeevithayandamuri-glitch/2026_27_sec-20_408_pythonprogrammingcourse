@@ -1,0 +1,9 @@
+#Relational opetator
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
+print(f"{number1} == {number2} is {number1 == number2}")
+print(f"{number1} != {number2} is {number1 != number2}")
+print(f"{number1} > {number2} is {number1 > number2}")
+print(f"{number1} < {number2} is {number1 < number2}")
+print(f"{number1} >= {number2} is {number1 >= number2}")
+print(f"{number1} <= {number2}is {number1 <= number2}")

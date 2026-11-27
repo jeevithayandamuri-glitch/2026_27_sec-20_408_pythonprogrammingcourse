@@ -1,0 +1,9 @@
+#4B_Raise_Exception
+#Implement a Python program that raises ValueError if the entered age is negative# Example solution: raise an exception
+try:
+    age = int(input("Enter age: "))
+    if age < 0:
+        raise ValueError("Age cannot be negative.")
+    print("Valid age:", age)
+except ValueError as err:
+    print("Error:", err)
